@@ -3,6 +3,7 @@ export class Home {
     constructor(name, address) {
         this.name = name;
         this.address = address;
+        this.id = "sha1";
 
         this.devices = [];
         this.events = [];
@@ -21,6 +22,7 @@ export class Device {
     constructor(name, type) {
         this.name = name;
         this.type = type;
+        this.id = "device-sha1";
     }
 }
 
