@@ -1,0 +1,21 @@
+node_modules
+bower_components
+coverage
+.DS_Store
+npm-debug.log
+.eslintcache
+yarn-error.log
+.vscode
+.idea/
+.githooks.yml
+.jestcache/
+.jestcache/
+jsconfig.json
+
+
+# No transpiled source code
+/lib
+
+# babel cache
+.babel-loader-cache/
+
