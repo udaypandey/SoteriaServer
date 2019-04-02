@@ -1,9 +1,11 @@
 
+import uuid from "uuid/v4";
+
 export class Home {
     constructor(name, address) {
         this.name = name;
         this.address = address;
-        this.id = "sha1";
+        this.id = uuid();
 
         this.devices = [];
         this.events = [];
@@ -22,7 +24,7 @@ export class Device {
     constructor(name, type) {
         this.name = name;
         this.type = type;
-        this.id = "device-sha1";
+        this.id = uuid();
     }
 }
 
